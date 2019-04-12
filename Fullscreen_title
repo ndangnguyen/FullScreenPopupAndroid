@@ -1,0 +1,7 @@
+public void showAddContacPopup(){
+        Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.add_contact_popup);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
+        dialog.show();
+    }
